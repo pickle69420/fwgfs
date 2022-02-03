@@ -25,7 +25,7 @@ function loadgame()
 {
 	let gamename = getCookie("loadgamename");
 	let gamelink = getCookie("loadgamelink");
-	if (gamename.includes("ghcdn.rawgit.org")
+	if (gamename.includes("ghcdn.rawgit.org"))
 	{
 		document.getElementById('warnmodule').style.display = 'block';
 	}
