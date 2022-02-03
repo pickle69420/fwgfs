@@ -25,10 +25,8 @@ function loadgame()
 {
 	let gamename = getCookie("loadgamename");
 	let gamelink = getCookie("loadgamelink");
-	let firsttime = getCookie("firsttime")
-	if (firsttime!=1 && gamename.includes("ghcdn.rawgit.org"))
+	if (gamename.includes("ghcdn.rawgit.org")
 	{
-		document.cookie = "firsttime=1;path=/";
 		document.getElementById('warnmodule').style.display = 'block';
 	}
 	let framewidth = (window.innerWidth/100)*98;
