@@ -1,0 +1,52 @@
+body {background-color: #5CDB95;}
+h1   {color: #EDF5E1; font-family: 'Orbitron', sans-serif;}
+h3   {color: #EDF5E1; font-family: 'Orbitron', sans-serif;  margin-left: 50px;}
+p    {color: #05386B; font-family: 'Orbitron', sans-serif;  margin-left: 50px;}
+a    {color: #05386B; font-family: 'Orbitron', sans-serif;}
+button    {color: #05386B; font-family: 'Orbitron', sans-serif;}
+.gameslist button    {margin-left: 50px;}
+.gameslist button {
+  background-color: #5CDB95;
+  border: none;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.gameslist button:hover{
+  background-color: #8EE4AF;
+}
+body {margin:0;}
+.topnav {
+  width: 100%;
+  overflow: auto;
+}
+
+.topnav a {
+  float: left;
+  width: 17%;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #05386B;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+#warnmodule {
+	z-index:100;
+	margin-left:300px;
+	display:none;
+	position:absolute;
+	width:600px;
+	height:450px;
+	background-color:red;
+}
+.moduleclose {
+	right:3;
+	top:3;
+	background-color:red;
+	border-width:0;
+	font-size:25px;
+}
