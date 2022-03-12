@@ -4,6 +4,8 @@ you really should not touch this
 
 trust me
 
+You looked at my repo didn't you bsd
+
 these are the past links that were blocked
 
 https://fwgfs.vercel.app/
