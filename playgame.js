@@ -25,10 +25,6 @@ function loadgame()
 {
 	let gamename = getCookie("loadgamename");
 	let gamelink = getCookie("loadgamelink");
-	if (gamelink.includes("ghcdn.rawgit.org"))
-	{
-		document.getElementById('warnmodule').style.display = 'block';
-	}
 	let framewidth = (window.innerWidth/100)*98;
 	let frameheight = window.innerHeight-5;
 	window.document.title="FWGFS - "+gamename;
